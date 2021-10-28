@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# instalar as libs abaixo n seu projeto com os comandos:
+# pip install pyautogui
+# pip install pyperclip
 
-
-# impartar as bibliotecas que iremos usar neste projeto
+# importe as bibliotecas que iremos usar neste projeto
 import pyautogui
 import pyperclip
 import time
@@ -39,6 +41,9 @@ time.sleep(5) # aguardar 5 segundos para baixar o arquivo
 
 
 # Passo 4: Calcular os indicadores
+# instale a lib do pandas com o comando abaixo:
+# pip install pandas
+
 import pandas as pd # importar o pandas para trabalhar com os dados
 
 ## usa o r no inicio do link do arquivo para que o python entenda que tem que usar os caracteres completos
